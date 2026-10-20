@@ -1,7 +1,7 @@
 # Homebrew tap for Anvil
 
 [Anvil](https://anvil.tr) is a local development environment for web projects.
-It runs on macOS (Apple Silicon); Linux and Windows are in development.
+It runs on macOS; Linux and Windows are in development.
 
 Add the tap once:
 
