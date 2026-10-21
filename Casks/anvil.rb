@@ -1,6 +1,6 @@
 cask "anvil" do
-  version "0.2.1"
-  sha256 "6178b790c271402692c15e7d7e5c093885743bfbf3ab31afcec01125c0720fe1"
+  version "0.3.0"
+  sha256 "07479a9e77ac2bf8ec03a9d34a9fde18ffa75762b4e8b0d3b996fbee5e6b1793"
 
   url "https://github.com/n1crack/anvil/releases/download/v#{version}/Anvil_#{version}_universal.dmg"
   name "Anvil"
@@ -8,7 +8,7 @@ cask "anvil" do
   homepage "https://anvil.tr/"
 
   auto_updates true
-  depends_on :macos
+  depends_on macos: :monterey
 
   app "Anvil.app"
   binary "#{appdir}/Anvil.app/Contents/MacOS/anvil"
