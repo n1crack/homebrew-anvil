@@ -1,6 +1,6 @@
 cask "anvil" do
-  version "0.3.0"
-  sha256 "07479a9e77ac2bf8ec03a9d34a9fde18ffa75762b4e8b0d3b996fbee5e6b1793"
+  version "0.3.1"
+  sha256 "e00697267cd989de86185dedfc0e12a5bc34b7896a84571f78e2fe67f5567e06"
 
   url "https://github.com/n1crack/anvil/releases/download/v#{version}/Anvil_#{version}_universal.dmg"
   name "Anvil"
