@@ -1,8 +1,8 @@
 class Anvil < Formula
   desc "Local development environment for web projects"
   homepage "https://anvil.tr/"
-  url "https://github.com/n1crack/anvil/releases/download/v0.3.2/anvil-0.3.2-universal-apple-darwin.tar.gz"
-  sha256 "d9f82d6c8806d37a584cf76ee037bb3e6c7b72440d2a75c3793c41caa4de577a"
+  url "https://github.com/n1crack/anvil/releases/download/v0.3.3/anvil-0.3.3-universal-apple-darwin.tar.gz"
+  sha256 "619ae6acca8813407502bd0c3f4d2ead2a959e415f26db55f81b40decfbab75f"
   license "GPL-3.0-only"
 
   depends_on macos: :monterey
